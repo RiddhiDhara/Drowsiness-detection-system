@@ -1,0 +1,10 @@
+Time,Alert Level,Signs Detected
+2025-05-13 18:49:29,Caution,Yawning
+2025-05-13 18:49:30,Warning,"Yawning, Prolonged blink"
+2025-05-13 18:49:40,Caution,Yawning
+2025-05-13 18:49:41,Warning,"Yawning, Prolonged blink"
+2025-05-13 18:49:52,Caution,Yawning
+2025-05-13 18:49:54,Warning,"Yawning, Prolonged blink"
+2025-05-13 18:49:54,Drowsiness,"Yawning, Prolonged blink"
+2025-05-13 18:50:11,Caution,Yawning
+2025-05-13 18:50:14,Drowsiness,"Yawning, Prolonged blink"
