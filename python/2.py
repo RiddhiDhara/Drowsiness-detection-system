@@ -1,5 +1,10 @@
 import pandas as pd
 from google import genai
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+gemini_key = os.getenv("API_KEY")
 
 CSV_PATH = "./python/drowsiness_data.csv"
 # STAT_FILE = "stat.txt"
@@ -8,7 +13,7 @@ CSV_PATH = "./python/drowsiness_data.csv"
 def summarize_data():
     try:
         # Initialize the Gemini client
-        client = genai.Client(api_key="AIzaSyBfISXWXfFtzEXBPtDSgq207ygCSP8gk5k")
+        client = genai.Client(api_key=gemini_key)
 
         # Read the CSV file
         df = pd.read_csv(CSV_PATH)
